@@ -41,7 +41,7 @@ def stop():
       
 def main():
 	if len(sys.argv) != 2:
-		print("Incorrect !! Please run python rds.py stop/start")
+		print("Incorrect !! Please run python start_stop_rds.py stop/start")
 	elif sys.argv[1] == "start":
 		start()
 	elif sys.argv[1] == "stop":
